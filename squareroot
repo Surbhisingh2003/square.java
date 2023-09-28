@@ -1,0 +1,15 @@
+import java.util.*;
+class maths {
+public static void main(String args[]) {
+Scanner sc= new Scanner(System.in);
+int n;
+double sqt, sq;
+System.out.print("Enter a no. ");
+n= sc.nextInt();
+sq=Math.pow(n,2);
+sqt =Math.sqrt(n);
+System.out.println("Sqr of no. :"+sqt);
+System.out.println("powr of no. :"+sq);
+
+}
+}
